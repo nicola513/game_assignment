@@ -1,5 +1,5 @@
 <h1>COMPS413F Game Development On Mobile Devices</h1>
-<h2>Group Project - MemoryGame<h2>
+<h2>Group Project - MemoryGame</h2>
 
 Group Member:
 <ul>
