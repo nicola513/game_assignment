@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/speed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+        <ProgressBar
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:minHeight="20dip"
+            android:maxHeight="20dip"
+            android:progress="0"
+            android:max="100"
+            android:progressDrawable="@drawable/timer_bar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_marginTop="78dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/clock"
+            android:layout_toEndOf="@+id/clock" />
+
+        <ImageView
+            android:layout_marginTop="60dp"
+            android:id="@+id/clock"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/clock"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/clock"
+        android:id="@+id/speed_board_table"
+        android:background="#00cc99"
+        android:stretchColumns="*" >
+    </TableLayout>
+
+</RelativeLayout>

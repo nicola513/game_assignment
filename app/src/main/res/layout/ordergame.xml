@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="56dp"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:background="#626854"
+        android:orientation="vertical"
+        android:stretchColumns="*"
+        android:id="@+id/image_table"
+        >
+    </TableLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:background="#852645"
+        android:orientation="vertical"
+        android:stretchColumns="*"
+        android:id="@+id/heartview"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/image_table">
+
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:text="10"
+            android:cropToPadding="false" />
+
+    </LinearLayout>
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/image_table"
+        android:id="@+id/order_board_table"
+        android:background="#00cc99"
+        android:stretchColumns="*" >
+    </TableLayout>
+
+</RelativeLayout>

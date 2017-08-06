@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_how"
+            android:icon="@drawable/how"
+            android:title="How To Play ?" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/group"
+            android:title="About Us" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/nav_sound"
+                    android:icon="@drawable/sound"
+                    android:title="Sound" />
+                <item
+                    android:id="@+id/nav_vibrate"
+                    android:icon="@drawable/vibrate"
+                    android:title="Vibrate" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
