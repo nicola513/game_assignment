@@ -1,7 +1,7 @@
 # COMPS413F Game Development On Mobile Devices
 # Group Project - MemoryGame
 
-Group Member:
-Ng Tsz Ching Nicola
-Kwok Pui Hei
-
+<ul>Group Member:
+  <li>Ng Tsz Ching Nicola
+  <li>Kwok Pui Hei
+<ul>
